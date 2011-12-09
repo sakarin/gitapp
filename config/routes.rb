@@ -1,4 +1,6 @@
 Gitapp::Application.routes.draw do
+  resources :users
+
   get "login/index"
 
   get "login/home"
