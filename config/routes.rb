@@ -1,4 +1,8 @@
 Gitapp::Application.routes.draw do
+  get "login/index"
+
+  get "login/home"
+
   # The priority is based upon order of creation:
   # first created -> highest priority.
 
